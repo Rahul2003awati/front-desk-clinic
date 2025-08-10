@@ -1,0 +1,26 @@
+{
+  "name": "clinic-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start:dev": "ts-node-dev --respawn --transpile-only src/main.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/jwt": "^9.0.0",
+    "@nestjs/passport": "^9.0.0",
+    "@nestjs/platform-express": "^9.0.0",
+    "bcrypt": "^5.1.0",
+    "mysql2": "^3.2.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.0",
+    "typeorm": "^0.3.12",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}

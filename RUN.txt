@@ -1,0 +1,14 @@
+1) Extract this ZIP to a folder, e.g. C:\Users\hp\Downloads\assignment clinic one
+2) Create MySQL DB:
+   CREATE DATABASE clinicdb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   Edit backend/.env if DB credentials differ.
+3) Start backend:
+   cd "C:\Users\hp\Downloads\assignment clinic one\backend"
+   npm install
+   npm run start:dev
+   Wait for: 'Backend running on 3001' and 'Default user created: admin / password123'
+4) Open frontend files directly:
+   Open frontend/index.html in your browser (double-click)
+   Or run: python -m http.server 3000 inside frontend folder and open http://localhost:3000/index.html
+Login: admin / password123
+If any error, paste full backend terminal output here.
